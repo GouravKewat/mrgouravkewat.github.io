@@ -100,6 +100,39 @@ footer {
   font-size: 0.9rem;
   border-top: 1px solid #e1e1e1;
 }
+/* Fade-in animation */
+.fade-hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .page-content {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3 {
+  color: #ffffff;
+}
+
+/* Active navigation link */
+nav a.active {
+  border-bottom: 2px solid #ffffff;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
