@@ -29,6 +29,7 @@ To utilize my organizational abilities, interpersonal skills, and creativity to 
 - Creativity and Problem-solving  
 - Leadership Potential and Teamwork  
 - Adaptability and Quick Learning  
+<script src="/assets/main.js"></script>
 
 ---
 
